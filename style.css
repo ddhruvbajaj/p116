@@ -1,0 +1,22 @@
+btn-danger.hover{
+color: blue;
+}
+
+body{
+    text-align: center;
+}
+
+canvas{
+    animation-name: moustache;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes moustache{
+    from{
+        box-shadow: 1px 1px 35px red;
+    }
+    to{
+        box-shadow: 1px 1px 35px green;
+    }
+}
